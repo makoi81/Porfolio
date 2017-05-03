@@ -1,4 +1,3 @@
-
 $('.smooth').on('click', function(){
     $.smoothScroll({
         scrollElement: $('body'),

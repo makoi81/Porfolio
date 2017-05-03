@@ -31,7 +31,6 @@ body{
   padding: 10px;
   margin: 45px auto;
 }
-
 /*------------------------Nav Bar ----------------------------------*/
 nav .nav-bar-right{
   font-size: 1.35em;
@@ -60,7 +59,6 @@ nav ul li a {
 .nav-bar a {
   font-size: .95em;
   color: #fff;
-  /*text-transform: uppercase;*/
 }
 .nav-bar-right a,
 .nav-bar-left a {
@@ -77,8 +75,8 @@ nav ul li a {
   color: #fed136;
   font-size: 110%
 }
-
 /*----------------------------end nav bar-------------------------------*/
+
 a{
   text-decoration: none;
 }
@@ -109,21 +107,14 @@ ul{
 color: grey;
 font-size: 150%
 }
-/*.intro-text:hover{
-  color:white;
-}*/
 
 header {
-  /*background-image: url("images/bg1.jpg");*/
-  /*background: radial-gradient(#999999, #F7F7F7);*/
-  /*background-image: url("images/binaire.jpg");*/
   background-image: url("images/computer.jpg");
   background-size: cover;
   width: 100%; 
 }
 header .container h2{
   margin-bottom: 25px;
-  /*text-transform: uppercase;*/
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 50px;
   font-weight: 700;
@@ -132,7 +123,6 @@ header .container h2{
 a{
   padding: 20px 40px;
   color: #fed136;
-  /*text-transform: uppercase;*/
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -146,21 +136,7 @@ a{
   padding: auto;
   color: white;
 }
-/****************************************Page2 About***************************/
-/*body{
-  margin: 0;
-  box-sizing: border-box;
-}*/
-/*#page2{
-  display: flex;
-  width: 100%;
-  min-height: 75vh;  
-  margin-top: 0px;
-  padding: auto;
-  background: radial-gradient(#0d896a, #08945d);
-  background: radial-gradient(#999999, #F7F7F7);
-  background-color: #F7F7F7;
-}*/
+/*----------------------------Page2 About----------------------------*/
  #page2 #about{
   display: flex;
   flex-direction: column;
@@ -179,24 +155,7 @@ a{
   font-size: 24px;
   text-transform: uppercase;
 }
-/*#about b:nth-child(1){
-  color: red;
-}
-#about b:nth-child(2){
-  color: #00BCD4;
-}
-#about b:nth-child(3){
-  color: #FF9800;
-}
-#about b:nth-child(4){
-  color: #32d038;
-}
-#about b:nth-child(5){
-  color: #E91E63;
-}
-#about b:nth-child(5){
-  color: #607D8B;
-}*/
+
 #about p a{
   color: #1FCECB;
   font-weight: bolder;
@@ -209,7 +168,6 @@ a{
   height: 400px;
   width: 99vw;
   margin-top: -230px;
-/*   background-color: #1fa67a; */
  background-color: grey; */
 
 }
@@ -217,8 +175,6 @@ a{
   width: 250px;
   border-radius: 50%;
   align-self: center;
-  /*display: none;*/
-
 }
 .info{
   display: flex;
@@ -229,20 +185,11 @@ a{
   animation-duration: 3s;
 }
 .info h1{
-  /*margin-left: auto;*/
   margin: 0 0 0 400px;
- /* color:white;*/
 }
 .hobby h1{
   margin: 0 0 0 40px;
-
 }
-/*#devider{
-  height: 4px;
-  width: 50px;
-  border-radius: 2px;
-  background-color: #130B08;
-}*/
 #text{
   display: flex;
   flex-direction: column;
@@ -275,7 +222,6 @@ a{
   margin-top: 9px;
   padding: 1px;
   color: #fff;
-
 }
 .hobby-items{
   display: flex;
@@ -303,13 +249,9 @@ a{
     flex-direction: column;
   }
 }
-/****************************End About Page**********************
+/*----------------------------End About Page----------------------------*/
 
-
-
-
-
-/*################################## page3 Skills  ############################*/
+/*----------------------------page3 Skills----------------------------*/
 
 #page3{
   display: flex;
@@ -317,9 +259,7 @@ a{
   min-height: 75vh;  
   margin-top: 0px;
   padding: auto;
-  /*background: radial-gradient(#0d896a, #08945d);*/
   background: radial-gradient(#999999, #F7F7F7);
-  /*background-color: #F7F7F7;*/
 }
 #page3 .container{
   display: flex;
@@ -327,8 +267,6 @@ a{
   flex-direction: column;
   box-sizing: border-box;
   min-height: 100vh;
-  /*background: radial-gradient(#0d896a, #08945d);*/
-  /*margin-top: 20px;*/
   margin-top: 20px;
   font-family: 'Roboto', sans-serif;
   padding-bottom: 50px;
@@ -340,7 +278,6 @@ a{
   margin-top: -50px
   min-height:100vh;
   color: #fff;
-  /*text-transform: uppercase;*/
 }
 #page3 .container .skills li i.fa{
   align-self: center;
@@ -376,7 +313,6 @@ a{
   background-color: #fff;
   border-radius: 5px;
   padding: 5px;
-  /*display: none;*/
 }
 #page3 .container .skills li hr {
   width: 75%;
@@ -384,7 +320,7 @@ a{
   border: 1px solid;
 }
 
-/* ====================Projects ==============================*/
+/*----------------------------Projects----------------------------*/
 #page4 {
   display: flex;
   flex-direction: column;
@@ -410,7 +346,6 @@ a{
   padding-left: 0;
   justify-content: space-around;
 }
-
 .hidden{
   display: none;
 }
@@ -501,9 +436,9 @@ a{
   justify-content: space-between;
   margin-bottom: 
 }
-/* ==================== End Projects ==============================*/
+/*---------------------------- End Projects ----------------------------*/
 
-/*====================== Page4 contact ============================*/
+/*----------------------------Page4 contact----------------------------*/
 #page5 {
   width: 100%;
   min-height: 100vh;
@@ -528,7 +463,6 @@ a{
   align-self: center;
   margin: 0 40px;
   cursor: pointer;
-  /*display: none;*/
 }
 #page5 .link i {
   font-size: 60px;
@@ -558,9 +492,9 @@ a{
   color: #000;
   font-size: 60px;
 }
-/*====================== End contact ============================*/
+/*---------------------------- End contact ----------------------------*/
 
-/* ################################## Footer ################################*/
+/*---------------------------- Footer----------------------------*/
 .footbar{
   background-color: #000;
   color: #fff;
@@ -575,9 +509,9 @@ a{
   display: inline;
 }
 
-/*========================
+/*----------------------------
     Media Queries
-==========================*/
+----------------------------*/
 
 @media(min-width: 768px){
   .nav-bar,
@@ -585,7 +519,7 @@ a{
     display: flex;   
   }
   .nav-bar {
-   /* display: flex;*/
+   
     flex-direction:column;
     align-items: center;
   }
@@ -603,30 +537,6 @@ a{
   }
 }
 /*----------------------------*/
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-}
-/*@media only screen and (min-width: 768px) {*/
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-
-
-
-
-
-/*----------------------------*/
 
 @media(min-width: 1025px){
   .nav-bar{  
@@ -642,13 +552,11 @@ a{
     justify-content: space-around;
     align-self: center;
   }
-  
   #projects .all-projects li img{
    width: 48%;
    height: 48%;
    align-self: center;
   }
-
   #projects .all-projects .project-details{
     flex: 0 48%;
   }
